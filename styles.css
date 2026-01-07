@@ -116,3 +116,81 @@ button {
     text-align: center;
     font-size: 36px;
 }
+
+.container-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.container-three h1 {
+    font-size: 24px;
+    color: #1f2937;
+    font-weight:300;
+    max-width: 800px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.container-three p {
+   display: flex;
+   justify-content: flex-end;
+   font-size: 18px;
+   font-weight: bold;
+   max-width: 800px;
+   width: 100%;
+   text-align: right;
+}
+
+.container-four {
+    margin: 80px;
+}
+
+.container-four-main {
+    display:flex;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.container-four-left {
+    margin: 40px;
+}
+
+.container-four-left h1 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.container-four-left p {
+    font-size: 12px;
+    margin: 0;
+}
+
+
+.container-four-right button {
+    border: solid white;
+    border-width: 2px;
+    border-radius: 4px;
+    width: 80px;
+    height: auto;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    
+}
+
+.footer h1 {
+    font-size: 14px;
+    font-weight: lighter;
+}
